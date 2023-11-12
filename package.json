@@ -1,0 +1,27 @@
+{
+  "name": "efficient-rect-packer",
+  "version": "1.0.0",
+  "description": "An efficient 2D bin packing algorithm designed for optimal arrangement of rectangular items on fixed-size surfaces, ideal for applications like image layout on paper sheets, minimizing waste and maximizing space utilization.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "rollup": "npx rollup dist/index.js --file dist/index.cjs --format cjs"
+  },
+  "keywords": [
+    "packer",
+    "efficient",
+    "rect-packer"
+  ],
+  "author": "SciSaif",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^4.4.0",
+    "typescript": "^5.2.2"
+  }
+}
