@@ -15,8 +15,12 @@
   },
   "keywords": [
     "packer",
-    "efficient",
-    "rect-packer"
+    "rect-packer", 
+    "bin-packing", 
+    "2d-bin-packing",
+    "rectangles-packer", 
+    "pack"
+
   ],
   "author": "SciSaif",
   "license": "ISC",
@@ -24,4 +28,12 @@
     "rollup": "^4.4.0",
     "typescript": "^5.2.2"
   }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SciSaif/efficient-rect-packer.git"
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
