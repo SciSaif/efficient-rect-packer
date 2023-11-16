@@ -67,7 +67,7 @@ Given the above example, the output might look like this:
 ```
 
 ## Demo
-A practical application of this library is an online tool for efficiently packing images onto A4-sized paper for printing. This tool helps to minimize the number of pages required to print all the photos, saving paper and reducing printing costs. You can check out the demo [here](https://2d-bin-packing.vercel.app/).
+A practical application of this library is an online tool for efficiently packing images onto A4-sized paper for printing. This tool helps to minimize the number of pages required to print all the photos, saving paper and reducing printing costs. You can check out the demo [here](https://pack4print.vercel.app/).
 
 ## API Reference
 
